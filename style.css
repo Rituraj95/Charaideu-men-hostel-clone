@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    height: 194px;
+    width: 1464px;
+    margin-top: 0px;
+}
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 1296px;
+    margin-left: 90px;
+}
+.nav-content img{
+    height: 110px;
+    width: 110px;
+}
+.nav-content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Nunito',sans-serif;
+    color: #012970;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navMenu{
+    margin-left: 28%;
+  
+}
+.navMenu li{
+    list-style: none;
+    display: inline;
+    padding: 0px 0px 10px 30px;
+    font-family: 'Nunito',sans-serif;
+    font-size: 16px;
+    color: #4154F1;
+}
+.carousel-inner {
+    border-radius: 40px;
+    overflow: hidden;
+  }
+  
+  .carousel-item img {
+    border-radius: 40px;
+  }
+.content1{
+   
+    padding: 80px;
+    display: flex;
+    width: 941px;
+    margin-left: 225px;
+    
+}
+.mainm1{
+    padding: 40px;
+    height: 426px;
+    width: 756px;
+    background-color: #cacaca44;
+}
+.mainm1 h3{
+    font-size: 14px;
+    margin: 0 0 8px;
+    color: #4154F1;
+    font-family: 'Nunito',sans-serif;
+}
+.mainm1 h2{
+    font-size: 24px;
+    margin:  0px 0px 8px;
+    font-family: 'Nunito',sans-serif;
+}
+.mainm1 span{
+    font-size: 16px;
+    color: #44444444;
+    font-family: 'openSans',sans-serif;
+
+}
+.mainm1 p{
+    font-size: 16px;
+    margin: 15px 0px 30px;
+}
+.content11 {
+    position: relative;
+    overflow: hidden;
+    height: 320px; 
+    margin-left: 70px;
+  }
+  
+  .newsfeed ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    animation: scroll-up 10s linear infinite;
+  }
+  
+  @keyframes scroll-up {
+    0% {
+      transform: translateY(100%);
+    }
+  
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .newsfeed ul li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .secnd{
+    padding-top: 20px;
+  }
+  .first{
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  .first p{
+    padding-top: 20px;
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
